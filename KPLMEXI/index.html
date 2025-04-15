@@ -1,0 +1,161 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV='Content-Type' CONTENT='text/html; charset=iso-8859-1' />
+<TITLE>KPLMEXI</TITLE>
+<meta name="msapplication-window" content="width=1024;height=748"/>
+<meta name="application-name" content="KPLMEXI"/>
+<meta name="msapplication-tooltip" content="KPLMEXI"/>
+<meta name='msapplication-square70x70logo' content='w8_7070.png'/>
+<meta name='msapplication-square150x150logo' content='w8_150150.png'/>
+<meta name='msapplication-square310x310logo' content='w8_310310.png'/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7,IE=EmulateIE8,IE=EmulateIE9,IE=EmulateIE10"/>
+<meta name="viewport" content="width=1024, target-densitydpi=device-dpi, user-scalable=no"/>
+<SCRIPT>
+var ishoney = 0
+if(navigator.userAgent.indexOf('Android')>-1){
+tmp=navigator.userAgent.split('Android')
+vers=parseInt(tmp[1])
+if(vers>=3){ishoney=1}
+}
+metatags = document.getElementsByTagName("meta");
+for (cnt = 0; cnt < metatags.length; cnt++){
+if (metatags[cnt].getAttribute("name") == "viewport"){
+if(navigator.userAgent.indexOf('iPad')>-1||navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1){
+metatags[cnt].setAttribute("content", "width=1024, user-scalable=no");
+}
+}
+}
+</SCRIPT>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="1024"/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7,IE=EmulateIE8,IE=EmulateIE9,IE=EmulateIE10"/>
+<meta name='msapplication-square70x70logo' content='w8_7070.png'/>
+<meta name='msapplication-square150x150logo' content='w8_150150.png'/>
+<meta name='msapplication-wide310x150logo' content='w8_310150.png'/>
+<meta name='msapplication-square310x310logo' content='w8_310310.png'/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="si_320_460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+<link href="si_640_920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+<link href="si_640_1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+<link href="si_768_1004.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+<link href="si_748_1024.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+<link href="si_1536_2008.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+<link href="si_1496_2048.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)"  rel="apple-touch-startup-image">
+<STYLE TYPE='text/css'>
+body {-ms-touch-action:none; -ms-content-zooming:none; -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-user-select:none;}
+P {font-family:Segoe UI,Thornburi,Droid Sans,Arial;font-size:11pt;}
+</STYLE>
+<link rel="apple-touch-icon" href="suicon.png">
+<link rel="icon" type="image/png" href="suicon.png">
+<link href="favicon.ico" rel="shortcut icon"/>
+<meta name="msapplication-TileImage" content="mssuicon.png"/>
+<meta name="msapplication-TileColor" content="#006AC0"/>
+</HEAD>
+<!-- saved from url=(0013)about:internet -->
+<BODY onresize=resizeit() onload=loadit() scroll=no style='margin-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;' bgcolor='#000000'>
+<SCRIPT>
+var oheight=748
+var owidth=1024
+var isitouch=0, isios=0, isandroid=0
+if(navigator.userAgent.indexOf('Mobile Safari')>-1){isitouch=1}
+if(navigator.userAgent.indexOf('Safari')>-1&&(navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1)){isitouch=1}
+if(navigator.userAgent.indexOf('Safari')>-1&&navigator.userAgent.indexOf('iPad')>-1){isitouch=1}
+if(navigator.userAgent.indexOf('iPad')>-1||navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1){isitouch=1}
+if(navigator.userAgent.indexOf('iPad')>-1||navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1){isios=1}
+if (navigator.userAgent.indexOf('Android')>-1){
+isandroid=1
+isitouch = 0
+isiphone = 0
+}
+if (isios==1||isandroid==1){
+location.replace('kplmexi.html')
+}
+if (isitouch){
+document.write('<TABLE WIDTH=100% height=100% cellspacing=0 cellpadding=0><TD valign=middle align=center>')
+}else{
+if (navigator.userAgent.indexOf('IEMobile')>-1){
+cheight=748
+setheight=(document.body.clientWidth/screen.width) * document.body.clientHeight
+document.write('<TABLE WIDTH=100% height=' + setheight + ' cellspacing=0 cellpadding=0><TD valign=middle align=center>')
+}else{
+document.write('<TABLE WIDTH=100% height=100% cellspacing=0 cellpadding=0><TD valign=middle align=center>')
+}
+}
+</SCRIPT>
+<SCRIPT>
+function getArg(arg){if(location.search==''){return ''}
+aGs=location.search.substring(1,location.search.length) + '&'
+aGspos = aGs.indexOf(arg)
+if(aGspos>-1){aGs=aGs.substring(aGspos,aGs.length)
+aGspos=aGs.indexOf('&')
+aGs = aGs.substring(0, aGspos)
+aGspos=aGs.indexOf('=')
+aGs = aGs.substring(aGspos + 1, aGs.length)
+return aGs
+}else{return ''}}
+var canloadfull=true
+var resizet=0
+var tbro='nn', issafari=false, safaripc=false
+if(document.all){tbro='ie'}
+if(parseInt(navigator.appVersion)>=5){tbro='ienn'}
+if(navigator.appName=='Microsoft Internet Explorer'){tbro='ie'}
+var navp=navigator.platform
+if(navp=='MacPPC'||navp=='Mac68K'){navp='Mac'}
+if(navigator.userAgent.indexOf('Safari')>-1){issafari=true}
+if(issafari&&navp=='Mac'){safarimac=true}
+if(issafari&&(navp=='Win32'||navp=='Win64')){safaripc=true}
+var isiphone=0, isitouch=0, isipadapp=false
+if(navigator.userAgent.indexOf('Mobile Safari')>-1){isiphone=1}
+if(navigator.userAgent.indexOf('Safari')>-1&&(navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1)){isiphone=1}
+if(navigator.userAgent.indexOf('Safari')>-1&&navigator.userAgent.indexOf('iPad')>-1){isitouch=1}
+if((navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1)){isiphone=1}
+if(navigator.userAgent.indexOf('iPad')>-1){isitouch=1}
+if (navigator.userAgent.indexOf('Android')>-1){
+isitouch = 0
+isiphone = 0
+}
+isitouch = 0
+isiphone = 0
+if (isiphone==1||isitouch==1){
+if (navigator.standalone){isipadapp=true}
+}
+function resizeit(){
+if (isiphone==1||isitouch==1){return}
+var canzoom = true
+var dozoom=1, dozoom2=(getArg('zoom'))
+if(dozoom2=='false'||dozoom2=='0'){canzoom=false}
+zratio=document.body.clientHeight / oheight
+if((owidth * zratio)>document.body.clientWidth){zratio=document.body.clientWidth / owidth}
+if (resizet==1){if (zratio<1){zratio==1}}
+if (canzoom==false){zratio=1}
+mf.style.height=oheight * zratio
+mf.style.width=owidth * zratio
+lpos=(document.body.clientWidth-(owidth * zratio))/2, tpos=(document.body.clientHeight-(oheight * zratio))/2
+if (lpos<0){lpos=0}
+if (tpos<0){tpos=0}
+mf.style.left=lpos
+mf.style.top=tpos
+}
+var frex=0, frex2=0
+if (isitouch!=1){
+document.write("<DIV id='li' style='position:absolute;left:0px;top:0px;visibility:visible;'><P style='color:white;font-size:14pt;margin-left:8px;margin-top:8px;'>Loading <B>KPLMEXI</B>...</P></DIV>")
+document.write("<DIV id='mf' style='position:absolute;left:0px;top:0px;visibility:hidden;width:1024px;height:748px'>")
+frex="<IFRAME scrolling='no' frameborder=no id='acx' src='kplmexi.html" + location.search + "' style='width:100%;height:100%'>"
+document.write("</DIV>")
+}
+function loadit(){
+if (isitouch==1){return}
+frex2=setTimeout('fl()',1000)
+}
+function fl(){
+if (isitouch==1){return}
+mf.innerHTML=frex
+mf.style.visibility='visible'
+li.style.visibility='hidden'
+resizeit()
+}
+</SCRIPT>
+</TD></TABLE>
+</BODY>
+</HTML>
